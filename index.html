@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestros GIFs</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #111;
+    }
+
+    main {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .lado {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 90vh;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="lado">
+      <img src="./mi-gif.gif" alt="Mi GIF">
+    </section>
+
+    <section class="lado">
+      <img src="./gif-companera.gif" alt="GIF de mi compañera">
+    </section>
+  </main>
+</body>
+</html>
